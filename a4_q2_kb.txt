@@ -1,0 +1,12 @@
+water <-- oxygen & hydrogen 
+oxocarbon <-- carbon & oxygen
+carbonic_acid <-- oxocarbon & water
+sulfurous_oxychloride <-- sulfur & oxygen
+sulfuric_acid <-- sulfurous_oxychloride & water
+hydrogen_peroxide <-- hydrogen & oxygen
+hydrochloric_acid <-- sulfurous_oxychloride & chlorine & water
+sodium <-- natrium & chlorine
+sodium_hydroxide <-- sodium & water
+nitric_oxide <-- nitrogen & oxygen
+nitric_acid <-- nitric_oxide & water
+aqua_regia <-- carbonic_acid & nitric_acid
