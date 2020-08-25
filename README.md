@@ -27,7 +27,7 @@ Most of them have to mix with oxygen because strongly acidic is more famous than
 
 <B>Example Code</B>:
 
-kb>load a4_q2_kb.txt
+kb>load kb_example.txt
 
 water <-- oxygen & hydrogen 
 oxocarbon <-- carbon & oxygen
