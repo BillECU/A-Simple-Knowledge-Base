@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import sys
 
 # returns True if, and only if, string s is a valid variable name
@@ -16,9 +10,6 @@ def is_atom(s):
 
 def is_letter(s):
     return len(s) == 1 and s.lower() in "_abcdefghijklmnopqrstuvwxyz"
-
-
-# In[2]:
 
 
 kb = []
@@ -155,6 +146,3 @@ while True:
     else:
         print("Error: unknown command \""+command+"\"")
     print()
-        
-        
-
