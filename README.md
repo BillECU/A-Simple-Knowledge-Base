@@ -25,9 +25,9 @@ They are based on oxygen, hydrogen, carbon, sulfur, chlorine, natrium, and nitro
 
 Most of them have to mix with oxygen because strongly acidic is more famous than strongly alkaline.
 
-<B>Example Code</B>:
+<B><h3>Example Code</h3></B>:
 
-kb>load kb_example.txt
+<B>kb>load kb_example.txt</B>
 
 water <-- oxygen & hydrogen 
 oxocarbon <-- carbon & oxygen
@@ -44,56 +44,56 @@ aqua_regia <-- carbonic_acid & nitric_acid
 
 12 new rule(s) added
 
-kb>infer_all
+<B>kb>infer_all</B>
 
 Newly inferred atoms:
 	<none>
 Atoms already known to be true:
 	<none>
 
-kb>tell oxygen carbon
+<B>kb>tell oxygen carbon</B>
 
 "oxygen" added to KB
 "carbon" added to KB
 
-kb>infer_all
+<B>kb>infer_all</B>
 
 Newly inferred atoms:
 	 oxocarbon
 Atoms already known to be true:
 	 oxygen, carbon
 
-kb>tell
+<B>kb>tell</B>
 
 Error: tell needs at least one atom
 
-kb>tell hydrogen
+<B>kb>tell hydrogen</B>
 
 "hydrogen" added to KB
 
-kb>infer_all
+<B>kb>infer_all</B>
 
 Newly inferred atoms:
 	 water hydrogen_peroxide carbonic_acid
 Atoms already known to be true:
 	 oxocarbon, oxygen, carbon, hydrogen
 
-kb>tell natrium chlorine
+<B>kb>tell natrium chlorine</B>
 
 "natrium" added to KB
 "chlorine" added to KB
 
-kb>infer_all
+<B>kb>infer_all</B>
 Newly inferred atoms:
 	 sodium sodium_hydroxide
 Atoms already known to be true:
 	 water, hydrogen_peroxide, carbonic_acid, water, hydrogen_peroxide, water, oxocarbon, oxygen, carbon, hydrogen, natrium, chlorine
 
-kb>infer_all
+<B>kb>infer_all</B>
 Newly inferred atoms:
 	<none>
 Atoms already known to be true:
 	 sodium, sodium_hydroxide, sodium, water, hydrogen_peroxide, carbonic_acid, water, hydrogen_peroxide, water, oxocarbon, oxygen, carbon, hydrogen, natrium, chlorine
 
-kb>stop
+<B>kb>stop</B>
 
