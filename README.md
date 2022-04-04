@@ -27,8 +27,9 @@ Most of them have to mix with oxygen because strongly acidic is more famous than
 
 <B><h3>Example Code</h3></B>:
 
-<B>kb>load kb_example.txt</B>
-
+```
+kb>load kb_example.txt
+```
 water <-- oxygen & hydrogen 
 oxocarbon <-- carbon & oxygen
 carbonic_acid <-- oxocarbon & water
@@ -43,57 +44,59 @@ nitric_acid <-- nitric_oxide & water
 aqua_regia <-- carbonic_acid & nitric_acid
 
 12 new rule(s) added
-
-<B>kb>infer_all</B>
-
+```
+kb>infer_all
+```
 Newly inferred atoms:
 	<none>
 Atoms already known to be true:
 	<none>
-
-<B>kb>tell oxygen carbon</B>
-
+```
+kb>tell oxygen carbon
+```
 "oxygen" added to KB
 "carbon" added to KB
-
-<B>kb>infer_all</B>
-
+```
+kb>infer_all
+```
 Newly inferred atoms:
 	 oxocarbon
 Atoms already known to be true:
 	 oxygen, carbon
-
-<B>kb>tell</B>
-
+```
+kb>tell
+```
 Error: tell needs at least one atom
-
-<B>kb>tell hydrogen</B>
-
+```
+kb>tell hydrogen
+```
 "hydrogen" added to KB
-
-<B>kb>infer_all</B>
-
+```
+kb>infer_all
+```
 Newly inferred atoms:
 	 water hydrogen_peroxide carbonic_acid
 Atoms already known to be true:
 	 oxocarbon, oxygen, carbon, hydrogen
-
-<B>kb>tell natrium chlorine</B>
-
+```
+kb>tell natrium chlorine
+```
 "natrium" added to KB
 "chlorine" added to KB
-
-<B>kb>infer_all</B>
+```
+kb>infer_all
+```
 Newly inferred atoms:
 	 sodium sodium_hydroxide
 Atoms already known to be true:
 	 water, hydrogen_peroxide, carbonic_acid, water, hydrogen_peroxide, water, oxocarbon, oxygen, carbon, hydrogen, natrium, chlorine
-
-<B>kb>infer_all</B>
+```
+kb>infer_all
+```		
 Newly inferred atoms:
 	<none>
 Atoms already known to be true:
 	 sodium, sodium_hydroxide, sodium, water, hydrogen_peroxide, carbonic_acid, water, hydrogen_peroxide, water, oxocarbon, oxygen, carbon, hydrogen, natrium, chlorine
-
-<B>kb>stop</B>
-
+```
+kb>stop
+```
